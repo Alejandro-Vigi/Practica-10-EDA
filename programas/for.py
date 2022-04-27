@@ -33,3 +33,14 @@ def cuenta1(limite):
         print("Cuenta terminada")
         
 cuenta1(8)
+
+def cuenta2(limite):
+    for i in range(limite,0,-1):
+        print(i)
+        if i==3:
+            break
+    else:
+        print("Cuenta terminada")
+        
+cuenta2(8)
+cuenta2(2)
